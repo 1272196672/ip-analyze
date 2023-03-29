@@ -68,8 +68,8 @@ public class GetESValueConfig {
 
     @Value("${es.index-name}")
     public void getEsIndexName(String indexName) {
-//        INDEX_NAME = indexName + DateUtil.format(DateUtil.date(), "yyyy.MM.dd");
-        INDEX_NAME = indexName + "2023.03.17";
+        INDEX_NAME = indexName + DateUtil.format(DateUtil.date(), "yyyy.MM.dd");
+//        INDEX_NAME = indexName + "2023.03.17";
     }
 
     @Value("${es.loop-millisecond}")

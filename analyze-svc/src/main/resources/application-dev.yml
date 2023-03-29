@@ -47,7 +47,9 @@ es:
   #  按需修改
   index-name: pb-7.15.1- # 索引名称
   loop-millisecond: 10000 # 多少ms循环一次 10s
+  loop-second: 10 # 多少ms循环一次 10s
   loop-longer-millisecond: 300000 # 多少ms循环一次 5min
+  loop-longer-second: 300 # 多少ms循环一次 5min
   delete-hour: 6 # redis过期时间 6h
   buffer-millisecond: 5000 # 缓冲时间，预留出采集+传输+分析+显示的时间，5s
   dangerous-num: 2 # 超过多少条算危险ip
